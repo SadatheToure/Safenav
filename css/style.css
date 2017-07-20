@@ -81,12 +81,22 @@ img {
     padding-top: 0;
 }
 
+.row {
+  background-color: rgba(211,211,211, 0.75);
+
+}
+
+.about {
+  background-color: white;
+}
+
 @media (min-width: 768px) {
     /*.main_container {
         grid-template-rows: repeat(5, 200rem);
         grid-auto-rows: 100rem;
     }*/
-    main {
+    main
+   {
         max-width: 80%;
         margin: 0 auto;
     }
